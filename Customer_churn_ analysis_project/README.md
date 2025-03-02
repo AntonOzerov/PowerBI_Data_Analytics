@@ -5,7 +5,7 @@
 For subscription-based businesses, reducing customer churn is a top priority. In this Power BI case study, I investigateg a dataset from an example telecom company called Databel and analyze their churn rates. 
 Analyzing churn doesn’t just mean knowing what the churn rate is: it’s also about figuring out why customers are churning at the rate they are, and how to reduce churn. 
 
-You'll answer these questions by creating measures and calculated columns, while simultaneously creating eye-catching report pages.
+I will answer these questions by creating measures and calculated columns, while simultaneously creating eye-catching report pages.
 
 In order to find out the churn reason I decided to create a list of questions:
 - What is the current churn rate?
@@ -14,6 +14,7 @@ In order to find out the churn reason I decided to create a list of questions:
 - What are the demographic churn patterns?
 - How does group contract affect churn?
 - Which contract churn more: Yearly or Monthly?
+- Does unlimited data plan affect churn rates?
 
 
 ## The Analysis
@@ -84,4 +85,21 @@ The Yearly contracts have significantly less churn rate tham month to month ones
 
 ![Screenshot 2025-03-02 165841](https://github.com/user-attachments/assets/0bf4c7b0-9e4e-4661-9ad9-165e45a5a59d)
 
+In addition, I decided to have a look at the churn distribution by gender. It look slike that female customers are more likerly to churn in monthly contract than males. 
 
+
+### Does unlimited data plan affect churn rates?
+
+![Screenshot 2025-03-02 172601](https://github.com/user-attachments/assets/4dc4e116-e765-481f-bb6e-8dd4bc559e26)
+
+Customers with unlimited data plans churn twice as often 32% vs 16%. Also, unlimited plan users that consume 5 GB of data or less churn almost 3 times as often as those with no unlimited data plan. Perhaps the company seeing how little data one uses could reach out to them with an offer to change their plan for the more affordable limited plan in order to prevent the churn.  
+
+
+The company wants to improve their customer service and for this task requires important three important topics related to the customers to be investigated: the payment method, the contract type, contract length.
+
+
+![Screenshot 2025-03-02 183549](https://github.com/user-attachments/assets/34e441cd-87cc-4fc7-af1f-f0c896090f06)
+
+According to the data, the churn rate is falling with time. This trend is most evident with month-to-month contract customers. 
+
+The most popular payment method with customers is Direct Debit (55%) followed by Credit card (39%) and Paper Checks (5.5%) as the third, least popular choice.
