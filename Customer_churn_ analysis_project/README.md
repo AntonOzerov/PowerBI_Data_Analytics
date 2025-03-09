@@ -15,6 +15,7 @@ In order to find out the churn reason I decided to create a list of questions:
 - How does group contract affect churn?
 - Which contract churn more: Yearly or Monthly?
 - Does unlimited data plan affect churn rates?
+- What influence does payment method have on churn?
 
 
 ## The Analysis
@@ -103,3 +104,14 @@ The company wants to improve their customer service and for this task requires i
 According to the data, the churn rate is falling with time. This trend is most evident with month-to-month contract customers. 
 
 The most popular payment method with customers is Direct Debit (55%) followed by Credit card (39%) and Paper Checks (5.5%) as the third, least popular choice.
+
+### What influence does payment method have on churn?
+
+The data tells us that Direct Debit Monthly payment method has seen the most number of customer service calls (3112), the highest average customer service calls per person (1.47) and the highest churn rate 53.90%. This situation requires investigation and could indicate a problem with the payment method. It is clear now that those who make service calls the most are the ones who churn more than average.
+
+### The overview dashboards
+
+![Screenshot 2025-03-09 165229](https://github.com/user-attachments/assets/25a4c88c-e7ec-4faf-8d04-93bc54989b32)
+
+![Screenshot 2025-03-09 171424](https://github.com/user-attachments/assets/ddfb771a-4f59-44a1-beab-d21e34f81903)
+
