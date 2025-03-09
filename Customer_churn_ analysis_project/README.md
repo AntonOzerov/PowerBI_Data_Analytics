@@ -18,6 +18,7 @@ In order to find out the churn reason I decided to create a list of questions:
 - What influence does payment method have on churn?
 
 
+
 ## The Analysis
 
 ### What is the current churn rate?
@@ -108,6 +109,9 @@ The most popular payment method with customers is Direct Debit (55%) followed by
 ### What influence does payment method have on churn?
 
 The data tells us that Direct Debit Monthly payment method has seen the most number of customer service calls (3112), the highest average customer service calls per person (1.47) and the highest churn rate 53.90%. This situation requires investigation and could indicate a problem with the payment method. It is clear now that those who make service calls the most are the ones who churn more than average.
+
+![Screenshot 2025-03-09 182524](https://github.com/user-attachments/assets/5ab3a0ff-d032-4aba-a896-6e480da529ce)
+
 
 ### The overview dashboards
 
